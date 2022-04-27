@@ -28,9 +28,7 @@ const Map = () => {
       controller={true}
       onViewStateChange={(event) => setViewState(event.viewState)}
     >
-      <ReactMapGL mapStyle={process.env.MAP_URL} mapLib={maplibregl}>
-        <NavigationControl />
-      </ReactMapGL>
+      <ReactMapGL mapStyle={process.env.MAP_URL} mapLib={maplibregl}/>
     </DeckGL>
   );
 };
