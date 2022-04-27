@@ -3,7 +3,6 @@ import maplibregl from "maplibre-gl";
 import DeckGL from "deck.gl";
 import { useState } from "react";
 import { GeoJsonLayer } from "deck.gl";
-import { getOrdinalScale } from "@deck.gl/aggregation-layers/utils/scale-utils";
 
 const Map = () => {
   const jsonData = require("@/data/N02-20_RailroadSection.json");
